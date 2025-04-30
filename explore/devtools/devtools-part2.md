@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 were strings, so when they were added together, the strings were concatenated instead of the number values being added together.
+2. I fixed it by type casting num1 and num2 into Number, so that result will be the sum of the values.
